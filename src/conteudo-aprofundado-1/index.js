@@ -8,5 +8,6 @@ cep.onkeyup = () => {
             cidade.value = resposta2.localidade;
             estado.value = resposta2.uf
         })
+        
     }
 }

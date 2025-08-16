@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body{ display: flex; justify-content: center; align-items: center; height: 100vh;}
+        form{display: flex ; flex-direction: column; width: 25%; height: 25%;}
+    </style>
+</head>
+<body>
+    <form>
+        <label for="regioes">Regiões</label>
+        <select id="regioes" onchange="buscarEstados()"></select>
+        <label for="estados">Estados</label>
+        <select id="estados" onchange="buscarCidades()"></select>
+        <label for="cidades">Cidades</label>
+        <select id="cidades"></select>
+    </form>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
